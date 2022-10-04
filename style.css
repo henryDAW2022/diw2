@@ -15,3 +15,23 @@ li{
     text-align: center;
     text-transform: none;
 }
+ul li:nth-child(odd) {background-color: aqua;}
+ul li:nth-child(even) {background-color: antiquewhite;}
+
+/*.negrita {
+    font-weight: bold;
+}*/
+#normal p{
+    font-size: medium;
+}
+#rojo p{
+    color: red;
+    font-size: medium;
+}
+#azul p{
+    color: blue;
+    font-size: 2em;
+}
+#tamaño p{
+    font-size: 1.5em;
+}
