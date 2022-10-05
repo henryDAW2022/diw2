@@ -18,9 +18,39 @@ li{
 ul li:nth-child(odd) {background-color: aqua;}
 ul li:nth-child(even) {background-color: antiquewhite;}
 
-/*.negrita {
+.amarillo{
+    background-color: #ffff00;
+}
+.pg5{
+    background-color: aquamarine;
+    color: #000000;
+}
+.negrita {
     font-weight: bold;
-}*/
+}
+.cursiva{
+    font-style: italic;
+}
+.subraya{
+    text-decoration: underline;
+}
+.NC2m{
+    font-style: italic;
+    font-weight: bold;
+}
+.NS2m{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.NCS2m{
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+}
+.CS2m{
+    text-decoration: underline;
+    font-style: italic;
+}
 #normal p{
     font-size: medium;
 }
@@ -31,7 +61,29 @@ ul li:nth-child(even) {background-color: antiquewhite;}
 #azul p{
     color: blue;
     font-size: 2em;
+    
 }
 #tamaño p{
     font-size: 1.5em;
+}
+#enlaces {
+    background-color: #ffff00;
+}
+#enlaces li{
+    background-color: #ffff00;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    
+}
+#enlaces li a{
+    text-decoration: none;
+    color: #70be09;
+}
+#ejercicios li a{
+    text-decoration: none;
+    font-size: larger;
+    font-family: monospace;
+}
+#ejercicios li{
+    padding:0.5cm;
 }
